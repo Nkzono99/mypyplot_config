@@ -1,0 +1,1 @@
+# mypyplot_config
