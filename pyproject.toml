@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mypyplot_config"
-version = "0.1.0"
+version = "0.1.1"
 description = "Pyplot config for a clean plot."
 authors = ["Nkzono99 <1735112t@gsuite.kobe-u.ac.jp>"]
 license = "Mit"
