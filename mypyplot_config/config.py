@@ -6,14 +6,11 @@ import matplotlib.cm as cm
 import matplotlib.colors as mcolors
 import matplotlib.pyplot as plt
 
-plt.rcParams['font.family'] = 'Times New Roman'
-if 'roman' in matplotlib.font_manager.weight_dict:
-    del matplotlib.font_manager.weight_dict['roman']
+plt.rcParams["font.family"] = "DejaVu Serif" 
+from cycler import cycler
 
-try:
-    matplotlib.font_manager._rebuild()
-except Exception:
-    pass
+plt.rcParams['axes.prop_cycle']  = cycler(color=['#FF4B00', '#005AFF', '#03AF7A', '#4DC4FF','#F6AA00',
+                                                 '#FFF100','#000000'])
 
 plt.rcParams["font.size"] = 22
 plt.rcParams['xtick.labelsize'] = 18
